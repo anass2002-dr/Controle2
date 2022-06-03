@@ -18,6 +18,7 @@ public class MyDatabase extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
+        String query= "DROP TABLE Societe";
+        db.execSQL(query);
     }
 }
