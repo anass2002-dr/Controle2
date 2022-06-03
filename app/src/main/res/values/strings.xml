@@ -3,4 +3,8 @@
     <string name="btn_aj">Ajouter une societe</string>
     <string name="btn_e">Editer une societe</string>
     <string name="btn_l">List de tous les soscites</string>
+    <string name="txt_nom">tapez le nom de societe</string>
+    <string name="secteur">"tapez le secteur "</string>
+    <string name="nb">tapez le nombre de employe</string>
+    <string name="sc">Tapez secteur</string>
 </resources>

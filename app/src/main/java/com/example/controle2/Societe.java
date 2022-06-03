@@ -51,4 +51,10 @@ public class Societe implements Serializable {
     public void setNb_employe(int nb_employe) {
         this.nb_employe = nb_employe;
     }
+
+    public Societe(String nom, String secteur_Activite, int nb_employe) {
+        Nom = nom;
+        Secteur_Activite = secteur_Activite;
+        this.nb_employe = nb_employe;
+    }
 }
