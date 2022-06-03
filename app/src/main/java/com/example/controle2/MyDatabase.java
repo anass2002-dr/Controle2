@@ -12,7 +12,8 @@ public class MyDatabase extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-
+        String query="create table Societe (ID integer primary key autoincrement,Raison_Sociale Text, Secteur_activite Text, nb_employe integer)";
+        db.execSQL(query);
     }
 
     @Override
