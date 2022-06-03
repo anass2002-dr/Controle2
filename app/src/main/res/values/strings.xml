@@ -7,4 +7,7 @@
     <string name="secteur">"tapez le secteur "</string>
     <string name="nb">tapez le nombre de employe</string>
     <string name="sc">Tapez secteur</string>
+    <string name="edite">Modifier</string>
+    <string name="annuler">annuler</string>
+    <string name="supp">supprimer</string>
 </resources>
